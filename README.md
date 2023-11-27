@@ -1,2 +1,8 @@
-# MOPI_1st
-For practical tasks on MOPI in UrFU
+#Приложение для построения графического изображения по запросу на русском языке
+
+Задание по дисциплине программная инженерия и магистратуры "Инженерия машинного обучения"
+ 
+Для выполнинения практических заданий были выбраны две модели:
+stabilityai/stable-diffusion-xl-base-1.0 (https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0) - для преобразования текстового запроса в изображение
+и
+Helsinki-NLP/opus-mt-ru-en (https://huggingface.co/Helsinki-NLP/opus-mt-ru-en) для превода русского языка запроса на англиский.
