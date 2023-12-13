@@ -39,11 +39,10 @@ pipe.enable_model_cpu_offload()
 # if using torch < 2.0
 # pipe.enable_xformers_memory_efficient_attention()
 #pipe.unet = torch.compile(pipe.unet, mode="reduce-overhead", fullgraph=True)
-#prompt = "An astronaut riding a green horse"
 
 images = pipe(prompt=req_name).images[0]
 
 images.show()
-#images.save("../outputs/astronaut_rides_horse.png")
+
 save_name=req_name.replace (' ','_')
 images.save(save_name+".png")
